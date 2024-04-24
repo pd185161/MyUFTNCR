@@ -1,0 +1,19 @@
+Naming Conventions For the Objects in Object Repository.
+
+Type					Naming			   Example
+Browser			- 		OBrwsr		-    	 OBrwsr_RetalixEMarketplace
+Page			-		OPge		-	 OPage_SupplierMaintenance
+Window			-		OWin		-	 OWin_NewSupplier_Wizard
+Frame			-		OFr		-	 OFr_bottomframe
+WebEdit			-		OWEdt		-	 OWEdt_SupplierCode
+WebElement		-		OWElm		-	 OWElm_SupplierCode
+WebButton		-		OWBtn		-	 OWBtn_Save
+WebList			-		OWLst		-	 OWLst_SearchWhat
+WebRadioButton		-		OWRBtn		-	 OWRBtn_selectionType
+Image			-		OImg		-	 OImg_Apply
+WebTable		-		OWTbl		-	 OWTbl_WebTable
+WebCheckBox		-		OWCB		-	 OWCB_checkbox
+
+If there are spaces in the object Name, then remove the spaces.
+If there are "-" in the object Name, then replace with an "_"(underscore")
+If there are "..." or "-" at the end of the object name, delete them.
